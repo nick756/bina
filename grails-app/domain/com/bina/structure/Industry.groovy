@@ -12,6 +12,6 @@ class Industry {
     }
     
     public String toString() {
-        name
+        "${String.format('%1$3s', code).relace(' ', '0')} ${name}"
     }
 }
